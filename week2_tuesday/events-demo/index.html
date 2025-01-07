@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      transition: background-color 0.3s, color 0.3s;
+    }
+  </style>
+</head>
+
+<body id="main" class="bg-gray-100 flex flex-col items-center justify-center h-screen">
+
+  <div
+    class="w-96 h-96 bg-gray-100 shadow-lg rounded flex flex-col items-center justify-center border-8 border-sky-500 space-y-6">
+    <!-- Inline Event -->
+    <h1 onclick="changeTextInline(this)" class="text-2xl font-bold text-sky-500 cursor-pointer">
+      👆 Klicka här
+    </h1>
+
+    <!-- Event Listener Example -->
+    <button id="eventListenerButton" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+      Byt bakgrundsfärg
+    </button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

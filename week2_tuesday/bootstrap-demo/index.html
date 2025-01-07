@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsiv Webbdesign Demo</title>
+  <!-- bootstrap CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+    footer {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .navbar-nav {
+      margin-left: 2vw;
+    }
+
+    .navbar-toggler {
+      margin-right: .5vw;
+    }
+  </style>
+</head>
+
+<body class="min-vh-100">
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- fixed top -->
+    <a class="navbar-brand" href="#">&nbsp; Webbdesign Demo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#usability">Användbarhet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#responsive-design">Responsiv Design</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bootstrap">Bootstrap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lorem-ipsum">Lorem ipsum</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <main class="container mt-5">
+    <section id="usability" class="mb-5">
+      <h2>Användbarhet</h2>
+      <p>Användbarhet är hur lätt det är att använda och lära sig använda ett objekt som är skapat av människor. Det
+        innebär att en webbplats eller applikation ska vara enkel att använda, effektiv och tillfredsställande för
+        användarna.</p>
+    </section>
+
+    <section id="responsive-design" class="mb-5">
+      <h2>Responsiv Webbdesign</h2>
+      <p>Responsiv webbdesign innebär att webbplatser fungerar bra oavsett om de besöks via en dator, mobil eller
+        surfplatta. CSS och media queries används för att anpassa layouten beroende på skärmens storlek.</p>
+    </section>
+
+    <section id="bootstrap" class="mb-5">
+      <h2>Bootstrap</h2>
+      <p>Bootstrap är ett frontend ramverk som används för att enkelt skapa responsiv design. Det innehåller ett antal
+        CSS-stylesheets och JavaScript-filer som underlättar webbdesign och gör det möjligt att snabbt skapa moderna
+        och funktionella webbsidor.</p>
+    </section>
+
+    <section id="lorem-ipsum" class="mb-5">
+      <h2>Lorem ipsum</h2>
+      <p>faeewf</p>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="text-white bg-dark">
+    <p class="mt-3">&copy; <span id="current_year"></span> Responsiv Webbdesign Demo</p>
+  </footer>
+
+  <!-- bootstrap JS from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+  <!-- current year -->
+  <script>
+    document.getElementById('current_year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
