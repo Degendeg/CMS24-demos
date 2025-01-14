@@ -24,3 +24,13 @@ NOTIS: När det står skriv: så menar jag i en terminal/cmd
 9. OPTIONAL: ta bort boilerplate kod i App.jsx samt SVGer, du får lite på köpet när du sätter upp en React app på detta sätt
 
 10. skriv: npm run dev (starta lokal webbserver och få möjlighet att GETa din app, vanligtvis http://localhost:5173
+
+-------- versionshantera? look no further --------
+
+11. i terminal, skriv: git init (står för initialize, så vi förbereder för versionshantering)
+
+12. skriv: git add . (stage:a dina untracked filer)
+
+13. skriv: git commit -m "init commit" (byt ut inom citattecken till lämpligt och beskrivande commitmeddelande)
+
+14. skriv: git push (om du har GitHub eller annan plattform kopplad eller vill koppla - följ: https://www.freecodecamp.org/news/introduction-to-git-and-github/ från Step 2
