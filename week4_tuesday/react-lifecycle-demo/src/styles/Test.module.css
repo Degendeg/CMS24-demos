@@ -1,0 +1,37 @@
+.wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.manager_btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.manager_show_btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.manager_incr_btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.manager_wrapper {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial;
+}
